@@ -1,3 +1,13 @@
+/*
+Question: 
+Rohan and Raju have a candy where each square has a number. Rohan wants to find out how many ways she can break the
+bar into a contiguous segment such that:
+1. The segment length matches Raju's birth month.
+2. The sum of the numbers in the segment equals Raju's birth day.
+
+Write a code for the same which will print the number of valid ways to divide the bar.
+*/
+
 #include <iostream>
 using namespace std;
 

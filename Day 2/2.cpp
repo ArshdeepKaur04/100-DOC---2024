@@ -1,3 +1,9 @@
+/*
+Question:
+A player is climbing a leaderboard where scores are ranked in descending order. Given the scores on the 
+leaderboard and the player's scores in the game, determine the player's rank after each new score.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -82,65 +88,3 @@ int main() {
     }
     cout << endl;
 }
-
-//My original code
-/*
-void sortDescending(int arr[], int n) {
-    for (int i = 0; i < n - 1; ++i) {
-        for (int j = 0; j < n - i - 1; ++j) {
-            if (arr[j] < arr[j + 1]) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
-    }
-}
-
-void removeDuplicates(int arr[], int n) {
-    if (n == 0 || n == 1) {
-        return;
-    }
-
-    int temp[n];
-    int j = 0;
-
-    for (int i = 0; i < n - 1; ++i) {
-        if (arr[i] != arr[i + 1]) {
-            temp[j++] = arr[i];
-        }
-    }
-    temp[j++] = arr[n - 1];
-
-    for (int i = 0; i < j; ++i) {
-        arr[i] = temp[i];
-    }
-}
-
-int main() {
-    int leaderboard[100], player_scores[100], len1, len2;
-    cout << "Enter the number of scores in the leaderboard: ";
-    cin >> len1;
-    cout << "Enter the scores in the leaderboard: ";
-    for (int i = 0; i < len1; i++) {
-        cin >> leaderboard[i];
-    }
-    cout << "Enter the number of scores of the player: ";
-    cin >> len2;
-    cout << "Enter the scores of the player: ";
-    for (int i = 0; i < len2; i++) {
-        cin >> player_scores[i];
-    }
-
-    int ans[100];
-    int index1 = len1;
-    int index2 = 0;
-    while(len2) {
-        leaderboard[index1++] = player_scores[index2++];
-        len2--;
-        sortDescending(leaderboard, len1+len2);
-        removeDuplicates(leaderboard, len1+len2);
-        ans[index2] = 0;
-    }
-}
-*/

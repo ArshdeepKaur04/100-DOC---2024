@@ -1,3 +1,10 @@
+/*
+Question:
+A professor has a class of students and wants to know if the class should be cancelled based on student arrival 
+times. The class is cancelled if fewer than a threshold number of students arrive on time. Write a code which
+prints the result of the class cancellation, "YES" if the class is cancelleda and "NO" otherwise.
+*/
+
 #include <iostream>
 using namespace std;
 
