@@ -1,3 +1,8 @@
+/*
+Question:
+Write a function to return the top view of a binary
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;

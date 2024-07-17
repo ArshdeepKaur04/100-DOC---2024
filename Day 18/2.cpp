@@ -1,3 +1,9 @@
+/*
+Question:
+Given a Huffman tree and a binary string, decode the string into the original text. tree, which is the set of 
+nodes visible when the tree is viewed from above.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

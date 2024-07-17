@@ -1,3 +1,8 @@
+/*
+Question:
+Given a binary search tree (BST) and two nodes, find their lowest common ancestor (LCA).
+*/
+
 #include <iostream>
 
 // Definition for a binary tree node.

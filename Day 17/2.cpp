@@ -1,3 +1,8 @@
+/*
+Question:
+Given a binary search tree (BST) and a value, insert the value into the BST while maintaining its properties.
+*/
+
 #include <iostream>
 using namespace std;
 
