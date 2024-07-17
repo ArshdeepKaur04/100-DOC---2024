@@ -5,28 +5,6 @@ Implement the myAtoi(string s) function, which converts a string to a 32-bit sig
 the final result.
 */
 
-//my approach
-/*
-int myAtoi(string s) {
-    string ans;
-    if (s[0] == '-') {
-        ans.push_back('-');
-    }
-    for (int i=1; i<s.length(); i++) {
-        if (s[i] >= '0' && s[i] <= '9') {
-            ans.push_back(s[i]);
-        }
-        else {
-            break;
-        }
-    }
-    int finalAns = int(ans);
-    return finalAns;
-}
-*/
-
-//correct ans
-/*
 class Solution {
 public:
     int myAtoi(string s) {
@@ -66,4 +44,3 @@ public:
         return (ans*sign);
     }
 };
-*/
