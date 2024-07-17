@@ -1,3 +1,14 @@
+/*
+Question:
+"Binary Puzzle Quest" on HackerRank
+
+Given a dualistic string str having character 'x' and 'y', you have to perform 2 operations on it:
+- Remove some(possibly x) characters from the beginning of str.
+- Remove some(possibly x) characters from the end of str.
+Let dig0 be the number of characters 'x' left in str and dig1 be the number of characters 'y' removed from Str. 
+Your task is to find the minimum value of max(dig0,dig1).
+*/
+
 #include <stdio.h>
 #include <string.h>
 

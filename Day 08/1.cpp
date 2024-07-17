@@ -1,66 +1,7 @@
 /*
-#include <iostream>
-#include <stack>
-using namespace std;
-
-int equalHeights(stack<int> stack1, stack<int> stack2, stack<int> stack3) {
-    int height1 = 0, height2 = 0, height3 = 0;
-    stack <int> temp1(stack1);
-    stack <int> temp2(stack2);
-    stack <int> temp3(stack3);
-    
-    //calculating the height of each cylinder
-    while(!temp1.empty()) {
-        height1 += temp2.top();
-        temp2.pop();
-    }
-    cout << height1 << endl;
-    while(!temp2.empty()) {
-        height2 += temp2.top();
-        temp2.pop();
-    }
-    cout << height2 << endl;
-    while(!temp3.empty()) {
-        height3 += temp3.top();
-        temp3.pop();
-    }
-    cout << height3 << endl;
-    return 0;
-}
-
-int main() {
-    stack <int> stack1;
-    stack <int> stack2;
-    stack <int> stack3;
-    int n1, n2, n3, temp;
-
-    cout << "Enter the number of elements in stack 1: ";
-    cin >> n1;
-    cout << "Enter the elements of stack 1: ";
-    for (int i=0; i<n1; i++) {
-        cin >> temp;
-        stack1.push(temp);
-    }
-    
-    cout << "Enter the number of elements in stack 2: ";
-    cin >> n2;
-    cout << "Enter the elements of stack 2: ";
-    for (int i=0; i<n2; i++) {
-        cin >> temp;
-        stack2.push(temp);
-    }
-
-    cout << "Enter the number of elements in stack 3: ";
-    cin >> n3;
-    cout << "Enter the elements of stack 3: ";
-    for (int i=0; i<n3; i++) {
-        cin >> temp;
-        stack3.push(temp);
-    }
-    
-    int ans = equalHeights(stack1, stack2, stack3);
-    cout << endl << ans;
-}
+Question:
+You have three stacks of cylinders with varying heights. Remove cylinders from the top of the stacks so that all
+stacks are of the same height, and return this maximum possible height.
 */
 
 #include <iostream>

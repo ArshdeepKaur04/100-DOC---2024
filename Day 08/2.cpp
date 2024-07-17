@@ -1,3 +1,8 @@
+/*
+Question:
+Implement a stack using two queues. The stack should support standard operations like push, pop, and top.
+*/
+
 #include <iostream>
 #include <queue>
 using namespace std;
