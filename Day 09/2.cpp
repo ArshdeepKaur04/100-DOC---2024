@@ -1,3 +1,8 @@
+/*
+Question:
+Check if a given string of brackets is balanced. The brackets include (), {}, and [].
+*/
+
 #include <iostream>
 #include <stack>
 using namespace std;

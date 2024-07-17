@@ -1,3 +1,8 @@
+/*
+Question:
+Design a stack that supports push, pop, and retrieving the maximum element efficiently.
+*/
+
 #include <iostream>
 #include <stack>
 using namespace std;
