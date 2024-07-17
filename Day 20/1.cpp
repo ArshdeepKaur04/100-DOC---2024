@@ -1,3 +1,9 @@
+/*
+Question:
+Given an undirected graph, determine if it is possible to color the vertices of the graph using at most 2 colors
+such that no two adjacent vertices share the same color.
+*/
+
 #include <iostream>
 #include <vector>
 #include <queue>

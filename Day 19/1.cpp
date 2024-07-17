@@ -1,11 +1,11 @@
 /*
+Question:
 You are given an undirected graph with n nodes and m edges. Each edge connects two nodes and has no weight. Your 
 task is to find the shortest reach (shortest path) from a given starting node to all other nodes in the graph using
 Breadth-First Search (BFS). If a node is not reachable from the starting node, the distance to that node should be 
 reported as -1.
 */
 
-/*
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -71,4 +71,3 @@ int main() {
 
     return 0;
 }
-*/
