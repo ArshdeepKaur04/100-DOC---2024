@@ -4,7 +4,6 @@ You are given a string s that consists of lower case English letters and bracket
 of matching parentheses, starting from the innermost one. Your result should not contain any brackets.
 */
 
-/*
 using namespace std;
 #include <iostream>
 #include <string>
@@ -32,4 +31,3 @@ public:
         return string(res.begin(), res.end());
     }
 };
-*/

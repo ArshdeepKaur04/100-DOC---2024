@@ -1,3 +1,11 @@
+/*
+Question:
+"Important Graph" on HackerRank
+You are given an array A[] of N integers. Consider a complete graph of N nodes numbered from 1 to N, where the 
+weight of edge connecting nodes x and y (x!=y) is | x * y - A[x] % A[y] - A[y] % A[x] |. Your task is to find the
+cost of the minimum spanning tree of this graph.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
