@@ -1,3 +1,9 @@
+/*
+Question:
+Create a function to check if reversing the ASCII values of a string results in the same sequence when read 
+backward. If true, return "symmetrical", otherwise return "not symmetrical".
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -43,36 +49,3 @@ int main() {
         cout << "Not Symmetrical";
     }
 }
-
-//blackbox ka code
-/*
-vector<int> asciiValues;
-    for (char c : s) {
-        asciiValues.push_back(c);
-    }
-    
-    vector<int> reversedAsciiValues;
-    for (int c : asciiValues) {
-        reversedAsciiValues.push_back('a' + 'z' - c);
-    }
-    
-    string reversedS = s;
-    int i=0, j=reversedS.length();
-    while(i < j) {
-        swap(reversedS[i], reversedS[j]);
-        i++;
-        j--;
-    }
-    
-    vector<int> reversedAsciiValuesOfReversedS;
-    for (char c : reversedS) {
-        reversedAsciiValuesOfReversedS.push_back(c);
-    }
-    
-    if (asciiValues == reversedAsciiValuesOfReversedS) {
-        cout << "symmetrical";
-    }
-    else {
-        cout << "not symmetrical";
-    }
-*/

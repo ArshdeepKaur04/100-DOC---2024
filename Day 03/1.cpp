@@ -1,3 +1,10 @@
+/*
+Question:
+A function to determine if a given sentence includes every letter of the English alphabet at least once. The 
+function should be case insensitive and return "complete" if the sentence contains every letter, otherwise return
+"incomplete".
+*/
+
 #include <iostream>
 using namespace std;
 

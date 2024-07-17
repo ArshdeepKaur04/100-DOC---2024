@@ -1,3 +1,8 @@
+/*
+Question:
+Given a string, determine the number of distinct palindromic substrings of a specified length.
+*/
+
 #include <iostream>
 using namespace std;
 
