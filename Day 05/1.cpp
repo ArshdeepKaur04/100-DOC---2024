@@ -1,3 +1,8 @@
+/*
+Question:
+Given a singly linked list, write a function to print the elements in reverse order.
+*/
+
 #include <iostream>
 
 struct ListNode {

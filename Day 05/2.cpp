@@ -1,3 +1,8 @@
+/*
+Question:
+Create a function to compare two singly linked lists and determine if they are identical.
+*/
+
 #include <iostream>
 
 struct ListNode {

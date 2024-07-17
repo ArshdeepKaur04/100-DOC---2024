@@ -1,67 +1,7 @@
 /*
-#include <iostream>
-using namespace std;
-
-struct ListNode {
-    int val;
-    ListNode* next;
-    ListNode(int x) : val(x), next(nullptr) {}
-};
-
-bool isCycle(ListNode* head) {
-    if (!head || !head->next) {
-        return false;
-    }
-
-    ListNode* slow = head;
-    ListNode* fast = head;
-
-    while (fast != nullptr && fast->next != nullptr) {
-        slow = slow->next;
-        fast = fast->next->next;
-
-        if (slow == fast) {
-            return true;
-        }
-    }
-    return false;
-}
-
-ListNode* createLinkedList() {
-    ListNode* head = nullptr;
-    ListNode* tail = nullptr;
-    int n;
-
-    cout << "Enter the number of elements in the linked list: ";
-    cin >> n;
-
-    for (int i=0; i<n; ++i) {
-        int value;
-        cout << "Enter value " << (i + 1) << ": ";
-        cin >> value;
-
-        ListNode* newNode = new ListNode(value);
-
-        if (head == nullptr) {
-            head = newNode;
-            tail = newNode;
-        } else {
-            tail->next = newNode;
-            tail = newNode;
-        }
-    }
-    return head;
-}
-
-int main() {
-    ListNode* head = createLinkedList();
-
-    if (isCycle(head)) {
-        cout << "Cycle" << endl;
-    } else {
-        cout << "No cycle" << endl;
-    }
-}
+Question:
+Write a function to check if a singly linked list contains a cycle. Return "cycle" if a loop exists, otherwise 
+return "no cycle".
 */
 
 #include <iostream>
