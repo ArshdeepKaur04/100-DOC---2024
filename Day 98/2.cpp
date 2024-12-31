@@ -3,7 +3,6 @@ Question "781. Rabbits in Forest" on Leetcode
 Given an integer array of even length arr, return true if it is possible to reorder arr such that arr[2 * i + 1] = 2 * arr[2 * i] for every 0 <= i < len(arr) / 2, or false otherwise.
 */
 
-//Understood it from a YouTube video, but understood it properly, interesting question :(
 #include <iostream>
 #include <vector>
 #include <map>
