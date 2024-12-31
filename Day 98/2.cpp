@@ -33,7 +33,7 @@ public:
                 target = 2 * x;
             }
             
-            // Check for invalid cases
+            // Check for invalid cases & return false
             if ((x < 0 && x % 2 != 0) || freq > count[target]) {
                 return false;
             }
